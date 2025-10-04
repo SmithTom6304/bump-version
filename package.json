@@ -1,0 +1,20 @@
+{
+  "name": "bump-version",
+  "version": "1.0.0",
+  "description": "Bumps a provided SemVer version string to a new major, minor, or patch version.",
+  "main": "index.js",
+  "author": "SmithTom6304",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "semver-ts": "^1.0.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.4",
+    "rollup": "^4.52.4",
+    "tslib": "^2.8.1"
+  }
+}

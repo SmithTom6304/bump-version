@@ -1,0 +1,15 @@
+name: 'Bump Version'
+description: 'Bumps a provided SemVer version string to a new major, minor, or patch version.'
+inputs:
+  version:
+    description: 'The SemVer string to bump.'
+    required: true
+  bump-type:
+    description: 'The bump type. Can be major, minor, or patch.'
+    required: true
+outputs:
+  bumped-version:
+    description: 'The bumped SemVer string.'
+runs:
+  using: node24
+  main: dist/index.js
